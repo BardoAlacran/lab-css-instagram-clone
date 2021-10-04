@@ -8,3 +8,52 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+header {
+  border: 1px solid red;
+}
+.login {
+  background-color: lightblue;
+  display: flex;
+  align-items: stretch;
+  text-decoration: none;
+  width: fit-content;
+}
+div {
+  border: 1px solid red;
+}
+section {
+  border: 1px solid red;
+}
+.main-text {
+  padding: 1%;
+}
+h1 {
+  border: 1px solid red;
+  color: darkblue;
+}
+p {
+  border: 1px solid red;
+}
+img {
+  border: 1px solid red;
+}
+footer {
+  border: 1px solid red;
+}
+li {
+  border: 1px solid red;
+  list-style: none;
+  width: fit-content;
+}
+
+@media (min-width: 420px) {
+  header {
+    border: 1px solid blue
+  }
+}
+@media (min-width: 768px) {
+  header {
+    border: 1px solid green;
+  }
+}
